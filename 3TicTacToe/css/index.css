@@ -1,0 +1,17 @@
+.gameContainer{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.cell{
+    width: 90px;
+    height: 90px;
+    background-color: aquamarine;
+    cursor: pointer;
+    text-align:center;
+    line-height: 90px;
+    font-size: 90px;
+}
