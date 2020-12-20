@@ -51,7 +51,7 @@ function move(x,y){
     number = 3 - chessboardArr[y][x];//让number这个数值在2和1之间轮循。
     render()//重新渲染页面
     if(isGameOver){
-        alert(`${number == 1 ? '×': '○'}   win!!!`)
+        alert(`${number == 1 ? '○': '×'}   win!!!`)
     }
 }
 
